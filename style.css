@@ -13,12 +13,14 @@ body {
   height: 100vh;
   background: #f6ead4;
   background-size: 300% 300%;
-    font-family: 'BabyStingrays', sans-serif; 
+ font-family: 'BabyStingrays', sans-serif; 
 
   
 }
 
-
+.swiper-pagination {
+  font-family: Arial, sans-serif;
+}
 
 /* --- Couleurs plus sobres --- ***************************************************************/
 /* --- Couleurs principales --- */
