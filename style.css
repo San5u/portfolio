@@ -1,0 +1,97 @@
+
+@font-face {
+  font-family: 'BabyStingrays'; /* Nom que vous voulez donner */
+  src: url('fonts/BabyStingraysRegular.woff2') format('woff2'),
+       url('fonts/BabyStingraysRegular.woff') format('woff');
+  font-weight: normal; /* Poids par défaut */
+  font-style: normal;  /* Style par défaut */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #f6ead4;
+  background-size: 300% 300%;
+    font-family: 'BabyStingrays', sans-serif; 
+
+  
+}
+
+
+
+/* --- Couleurs plus sobres --- ***************************************************************/
+/* --- Couleurs principales --- */
+
+  
+
+ 
+  
+
+  
+.swiper-slide > .content {
+  display: none;
+  position: absolute;
+  transition: 0.5s;
+}
+
+.swiper-slide {
+  position: relative;
+}
+.swiper-slide {
+  width: 100%;
+}
+
+.swiper-slide:hover > .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #00000094;
+  width: 93%;
+  height: 87%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.swiper-slide h3, .swiper-slide p {
+  color: #fff;
+}
+.swiper-slide a {
+  text-decoration: none;
+}
+
+.thumbnail img{
+width: 
+100%; /* Adapte la largeur à celle du conteneur */
+height: auto; /* Conserve les proportions de l'image */
+
+}
+
+
+  /* --- Swiper : mise en valeur des images --- */
+  .swiper-slide img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #fff; /* Icônes blanches */
+  }
+  
+  
+ 
+  
+
+  
+  /* --- Responsivité pour petits écrans --- */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  }

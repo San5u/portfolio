@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <meta name="description" content="" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/01f781d474.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="container">
+
+    <header class="d-flex justify-content-between align-items-center py-3 border-bottom" style="background-color: #a7beae; border-color: #b85042; margin-bottom: 145px;">
+      <h1 class="fs-5 mb-0" style="color: #b85042; font-size: 2.5rem; letter-spacing: 0.05em; padding-left: 20px;">Thomas Lobjois</h1>
+      <nav>
+        <ul class="d-flex list-unstyled gap-4 mb-0 align-items-center" style="padding: 20px;">
+          <li><a href="#projets" class="text-decoration-none" style="color: #b85042; font-size: 1.5rem; letter-spacing: 0.05em;">Projets</a></li>
+          <li>
+            <a href="#contact" class="btn btn-outline" 
+               style="border-color: #b85042; color: #b85042; font-size: 1.5rem; letter-spacing: 0.05em; "
+               onmouseover="this.style.backgroundColor = '#b85042'; this.style.color = 'white';"
+               onmouseout="this.style.backgroundColor = 'transparent'; this.style.color = '#b85042';">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- À propos de moi section -->
+    <section id="about-me" class="d-flex align-items-center py-5" style="background-color: #d8aca5;">
+      <img src="img/moi.png" alt="Photo de Thomas Lobjois" class="rounded-circle" style="width: 200px; height: 200px; object-fit: cover; padding-left: 20px;">
+      <div class="ps-5" style="font-family: 'Tahoma', sans-serif; color: #b62020; font-size: 1.3rem;">
+        <p>À propos de moi : Ancien monteur vidéo professionnel, j’ai décidé de me reconvertir en développeur web full stack pour relever de nouveaux défis. Grâce à une formation OpenClassroom, j’ai réalisé plusieurs projets qui m’ont permis de maîtriser le front-end (HTML, CSS, JavaScript, React) et le back-end (Node.js, MongoDB, SQL). Passionné par ce métier, je suis constamment motivé par l’apprentissage et les défis techniques. Aujourd’hui, je cherche à mettre mes compétences au service de projets ambitieux et innovants.</p>
+      </div>
+    </section>
+
+    <section id="competences" class="mt-5" style="margin-bottom: 100px;">
+      <h2 class="text-center mb-4" style="color: #b85042;">Compétences</h2>
+      <div class="container" style="padding-top: 50px;"></div>
+      <div class="row justify-content-center">
+        <div class="col-lg-2 col-md-3 col-sm-4 d-flex align-items-center justify-content-center gap-2 p-2">
+          <div class="btn btn-outline-primary rounded-circle p-3 d-flex justify-content-center align-items-center">
+            <i class="fab fa-html5 fs-4"></i>
+          </div>
+          <span style="color: #b85042;">HTML</span>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 d-flex align-items-center justify-content-center gap-2 p-2">
+          <div class="btn btn-outline-warning rounded-circle p-3 d-flex justify-content-center align-items-center">
+            <i class="fab fa-js-square fs-4"></i>
+          </div>
+          <span style="color: #b85042;">JavaScript</span>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 d-flex align-items-center justify-content-center gap-2 p-2">
+          <div class="btn btn-outline-primary rounded-circle p-3 d-flex justify-content-center align-items-center">
+            <i class="fa-brands fa-css3-alt fs-4"></i>
+          </div>
+          <span style="color: #b85042;">CSS</span>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 d-flex align-items-center justify-content-center gap-2 p-2">
+          <div class="btn btn-outline-info rounded-circle p-3 d-flex justify-content-center align-items-center">
+            <i class="fa-brands fa-react fs-4"></i>
+          </div>
+          <span style="color: #b85042;">React</span>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 d-flex align-items-center justify-content-center gap-2 p-2">
+          <div class="btn btn-outline-success rounded-circle p-3 d-flex justify-content-center align-items-center">
+            <i class="fa-brands fa-node-js fs-4"></i>
+          </div>
+          <span style="color: #b85042;">Node.js</span>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 d-flex align-items-center justify-content-center gap-2 p-2">
+          <div class="btn btn-outline-dark rounded-circle p-3 d-flex justify-content-center align-items-center">
+            <i class="fa-brands fa-github fs-4"></i>
+          </div>
+          <span style="color: #b85042;">GitHub</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projets section -->
+    <section id="projets" style="background-color: #a7beae; padding: 50px 0;">
+      <h2 class="text-center" style="color: #b85042;">Projets</h2>
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide text-center p-5">
+              <div class="thumbnail">
+                <img src="img/booki.png" alt="Booki" />
+              </div>
+              <div class="content">
+                <a href="projet-1.html">
+                  <h3>Création de page d'accueil d'une agence de voyage avec HTML & CSS</h3>
+                  <p>En savoir plus</p>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide text-center p-5">
+              <div class="thumbnail">
+                <img src="img/portfolio.png" alt="portfolio sophie bluel" />
+              </div>
+              <div class="content">
+                <a href="projet-2.html">
+                  <h3>Création de portfolio dynamique avec JavaScript</h3>
+                  <p>En savoir plus</p>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide text-center p-5">
+              <div class="thumbnail">
+                <img src="img/Kasa.png" alt="site Kasa" />
+              </div>
+              <div class="content">
+                <a href="projet-3.html">
+                  <h3>Création d'application web de location immobilière avec React</h3>
+                  <p>En savoir plus</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="text-center" style="padding-top: 80px;">
+      <h2 style="color: #b85042; padding-bottom: 50px;">Créons ensemble votre futur projet.</h2>
+      <a href="mailto:mail@mail.com" class="btn btn-outline-warning" 
+         style="border-color: #b4a284; color: #b85042; text-shadow: 2px 2px 4px #b4a284; font-size: 1.5rem; letter-spacing: 0.05em;" 
+         onmouseover="this.style.backgroundColor = '#b85042'; this.style.color = 'white';" 
+         onmouseout="this.style.backgroundColor = 'transparent'; this.style.color = '#b85042';">
+         Contactez-moi maintenant
+      </a>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #a7beae; color: #a2a595; padding: 20px 0; margin-top: 175px;">
+      <div class="container text-center">
+        <p style="color: #b85042;">&copy; Thomas Lobjois. Tous droits réservés.</p>
+        <p style="color: #b85042;">Développeur Front-End & Back-End</p>
+      </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
