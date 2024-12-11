@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portefollio</title>
+    <meta name="description" content="" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/01f781d474.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="container">
+
+    <header class="d-flex justify-content-between align-items-center py-3 border-bottom" style="background-color: #a7beae; border-color: #b85042; margin-bottom: 25px;">
+      <a href="index.html" class="fs-5 mb-0" style="color: #b85042; font-size: 2.5rem; letter-spacing: 0.05em; padding-left: 20px; text-decoration: none;">Revenir à l'accueil</a>
+      <nav>
+        <ul class="d-flex list-unstyled gap-4 mb-0 align-items-center" style="padding: 20px;">
+          <li>
+            <a href="index.html#contact" class="btn btn-outline" 
+            style="border-color: #b85042; color: #b85042; font-size: 1.5rem; letter-spacing: 0.05em;" 
+            onmouseover="this.style.backgroundColor = '#b85042'; this.style.color = 'white';" 
+            onmouseout="this.style.backgroundColor = 'transparent'; this.style.color = '#b85042';">
+           Contact
+         </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Projet-1 section -->
+    <section id="projet-1" class="text-center py-5">
+      <h2 style="color: #b85042; margin-bottom: 20px;">Kasa , application web de location immobilière avec React </h2>
+      <img src="img/kasa3.png" alt="Booki" style="width: 80%; max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="img/kasa2.png" alt="Booki" style="width: 80%; max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="img/kasa1.png" alt="Booki" style="width: 80%; max-width: 100%; height: auto; display: block; margin: 0 auto;">
+
+      <section id="project-description" style="margin-top: 50px;">
+  <p>Description : Création d’une application web de location immobilière avec React, offrant une expérience utilisateur intuitive et des fonctionnalités avancées de gestion des biens.</p>
+</section>
+
+     <!-- Collapse/chevrons -->
+<div class="accordion mt-5" id="accordionExample">
+  <!-- Problématique -->
+  <div class="accordion-item" style="margin-bottom: 30px;">
+    <h2 class="accordion-header" id="headingOne">
+      <button
+        class="accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseOne"
+        aria-expanded="true"
+        aria-controls="collapseOne"
+        style="background-color: #b85042; color: white; font-size: 1.5rem; letter-spacing: 0.05em;"
+      >
+      Problématique
+    </button>
+  </h2>
+  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      <p>Kasa, une entreprise spécialisée dans la location d’appartements entre particuliers, souhaite moderniser son site web développé il y a plus de 10 ans en ASP.NET. Cette refonte vise à adopter une nouvelle stack technologique axée sur React pour le front-end et Node.js pour le back-end. Le défi principal est de construire une interface dynamique, fonctionnelle et responsive à partir de maquettes Figma, tout en respectant les contraintes techniques telles que l'usage de JSON pour les données en l'absence d'un back-end opérationnel.</p>
+    </div>
+  </div>
+</div>
+
+  <!-- Compétences Acquises -->
+  <div class="accordion-item" style="margin-bottom: 30px;">
+    <h2 class="accordion-header" id="headingTwo">
+      <button
+        class="accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseTwo"
+        aria-expanded="false"
+        aria-controls="collapseTwo"
+        style="background-color: #b85042; color: white; font-size: 1.5rem; letter-spacing: 0.05em;"
+      >
+        Compétences Acquises
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>Développement d'applications React avec des composants modulaires.
+          Implémentation des routes dynamiques avec React Router.
+          Création d'une galerie d’images interactive avec des fonctionnalités avancées comme le défilement circulaire et l’adaptation à des listes d’images de tailles variables.
+          Utilisation de Sass pour générer le style CSS et mise en place d’animations fluides, notamment pour les menus déroulants (Collapse).
+          Lecture et utilisation de données statiques JSON pour simuler une API, en attendant l’intégration d’un back-end.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Technologies Utilisées -->
+  <div class="accordion-item" style="margin-bottom: 30px;">
+    <h2 class="accordion-header" id="headingThree">
+      <button
+        class="accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseThree"
+        aria-expanded="false"
+        aria-controls="collapseThree"
+        style="background-color: #b85042; color: white; font-size: 1.5rem; letter-spacing: 0.05em;"
+      >
+        Technologies Utilisées
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>React : pour construire l’application front-end en suivant une architecture orientée composants.
+          React Router : pour gérer les routes et assurer une navigation fluide entre les pages.
+          Sass : pour créer un style modulaire et améliorer la gestion des animations.
+          JSON : pour simuler une base de données et permettre l'affichage dynamique des annonces.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a href="https://github.com/San5u/Appli-Immobiliere-React" class="btn btn-outline" 
+   style="border-color: #a7beae; color: #a7beae; font-size: 1.5rem; letter-spacing: 0.05em;" 
+   onmouseover="this.style.backgroundColor = '#a7beae'; this.style.color = 'white';" 
+   onmouseout="this.style.backgroundColor = 'transparent'; this.style.color = '#a7beae';">
+   Le projet sur mon Github
+</a>
+
+<section class="text-center mt-50" style="margin-top: 150px;">
+ <a href="index.html#projets" class="btn btn-outline" 
+    style="border-color: #b85042; color: #b85042; font-size: 1.5rem; letter-spacing: 0.05em;" 
+    onmouseover="this.style.backgroundColor = '#b85042'; this.style.color = 'white';" 
+    onmouseout="this.style.backgroundColor = 'transparent'; this.style.color = '#b85042';"
+  >
+    Voir un autre projet
+  </a>
+</section>
+
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #a7beae; color: #a2a595; padding: 20px 0; margin-top: 175px;">
+      <div class="container text-center">
+        <p style="color: #b85042;">&copy; Thomas Lobjois. Tous droits réservés.</p>
+        <p style="color: #b85042;">Développeur Front-End & Back-End</p>
+      </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

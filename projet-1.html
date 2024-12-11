@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portefollio</title>
+    <meta name="description" content="" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/01f781d474.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="container">
+
+    <header class="d-flex justify-content-between align-items-center py-3 border-bottom" style="background-color: #a7beae; border-color: #b85042; margin-bottom: 25px;">
+      <a href="index.html" class="fs-5 mb-0" style="color: #b85042; font-size: 2.5rem; letter-spacing: 0.05em; padding-left: 20px; text-decoration: none;">Revenir à l'accueil</a>
+      <nav>
+        <ul class="d-flex list-unstyled gap-4 mb-0 align-items-center" style="padding: 20px;">
+          <li>
+            <a href="index.html#contact" class="btn btn-outline" 
+            style="border-color: #b85042; color: #b85042; font-size: 1.5rem; letter-spacing: 0.05em;" 
+            onmouseover="this.style.backgroundColor = '#b85042'; this.style.color = 'white';" 
+            onmouseout="this.style.backgroundColor = 'transparent'; this.style.color = '#b85042';">
+           Contact
+         </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Projet-1 section -->
+    <section id="projet-1" class="text-center py-5">
+      <h2 style="color: #b85042; margin-bottom: 20px;">Booki</h2>
+      <img src="img/booki.png" alt="Booki" style="width: 80%; max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <section id="project-description" style="margin-top: 50px;">
+        <p>Description  : Création de la page d'accueil d'une agence de voyage avec HTML & CSS, offrant une navigation claire et attrayante pour les utilisateurs.</p>
+      </section>
+
+
+     <!-- Collapse/chevrons -->
+<div class="accordion mt-5" id="accordionExample">
+  <!-- Problématique -->
+  <div class="accordion-item" style="margin-bottom: 30px;">
+    <h2 class="accordion-header" id="headingOne">
+      <button
+        class="accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseOne"
+        aria-expanded="true"
+        aria-controls="collapseOne"
+        style="background-color: #b85042; color: white; font-size: 1.5rem; letter-spacing: 0.05em;"
+      >
+      Problématique
+    </button>
+  </h2>
+  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      <p>Le projet vise à créer une page d'accueil moderne et fonctionnelle pour une agence de voyage, en mettant en avant les destinations, les offres spéciales et les services offerts. L’objectif principal est de proposer une expérience utilisateur fluide et attrayante tout en assurant une navigation intuitive et une bonne lisibilité sur différents types d’appareils. La problématique réside dans la conception d’une interface claire et esthétique qui soit à la fois engageante et accessible, en respectant les contraintes de l’agence.</p>
+    </div>
+  </div>
+</div>
+
+  <!-- Compétences Acquises -->
+  <div class="accordion-item" style="margin-bottom: 30px;">
+    <h2 class="accordion-header" id="headingTwo">
+      <button
+        class="accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseTwo"
+        aria-expanded="false"
+        aria-controls="collapseTwo"
+        style="background-color: #b85042; color: white; font-size: 1.5rem; letter-spacing: 0.05em;"
+      >
+        Compétences Acquises
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>Les compétences développées au cours de ce projet reposent principalement sur le travail avec le HTML et le CSS, en mettant l’accent sur le responsive design. Il s’agissait de structurer le contenu de manière sémantique et d’appliquer des styles adaptés à différents écrans (desktop, tablette, mobile) sans recourir à des frameworks complexes. L'accent a été mis sur l'utilisation de media queries et de techniques de mise en page flexibles, garantissant ainsi une compatibilité et une esthétique sur tous types d’appareils.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Technologies Utilisées -->
+  <div class="accordion-item" style="margin-bottom: 30px;">
+    <h2 class="accordion-header" id="headingThree">
+      <button
+        class="accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseThree"
+        aria-expanded="false"
+        aria-controls="collapseThree"
+        style="background-color: #b85042; color: white; font-size: 1.5rem; letter-spacing: 0.05em;"
+      >
+        Technologies Utilisées
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>Pour ce projet, les technologies utilisées se limitent principalement à HTML et CSS. Il n’a pas été nécessaire d’utiliser des frameworks ou des composants supplémentaires tels que les sliders, carrousels, ou collapses. Le travail a porté sur la mise en œuvre d’un design responsive, l'utilisation de media queries pour s’adapter aux différents écrans, et l'optimisation des styles CSS pour un affichage cohérent sur desktop, tablette et mobile.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a href="https://github.com/San5u/OC-DEV-WEB-Code" class="btn btn-outline" 
+   style="border-color: #a7beae; color: #a7beae; font-size: 1.5rem; letter-spacing: 0.05em;" 
+   onmouseover="this.style.backgroundColor = '#a7beae'; this.style.color = 'white';" 
+   onmouseout="this.style.backgroundColor = 'transparent'; this.style.color = '#a7beae';">
+   Le projet sur mon Github
+</a>
+
+<section class="text-center mt-50" style="margin-top: 150px;">
+ <a href="index.html#projets" class="btn btn-outline" 
+    style="border-color: #b85042; color: #b85042; font-size: 1.5rem; letter-spacing: 0.05em;" 
+    onmouseover="this.style.backgroundColor = '#b85042'; this.style.color = 'white';" 
+    onmouseout="this.style.backgroundColor = 'transparent'; this.style.color = '#b85042';"
+  >
+    Voir un autre projet
+  </a>
+</section>
+
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #a7beae; color: #a2a595; padding: 20px 0; margin-top: 175px;">
+      <div class="container text-center">
+        <p style="color: #b85042;">&copy; Thomas Lobjois. Tous droits réservés.</p>
+        <p style="color: #b85042;">Développeur Front-End & Back-End</p>
+      </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
