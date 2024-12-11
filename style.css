@@ -22,13 +22,13 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* --- Couleurs plus sobres --- ***************************************************************/
-/* --- Couleurs principales --- */
+[disabled] {
+  pointer-events: none; /* Désactive l'interaction */
+  opacity: 0.6; /* Réduit l'opacité pour montrer qu'ils sont désactivés */
+  cursor: not-allowed; /* Change le curseur pour indiquer qu'ils ne sont pas utilisables */
+}
 
-  
 
- 
-  
 
   
 .swiper-slide > .content {
@@ -96,4 +96,10 @@ height: auto; /* Conserve les proportions de l'image */
     header h1 {
       font-size: 2rem;
     }
+  }
+
+  [disabled] {
+    pointer-events: none; /* Désactive l'interaction */
+    opacity: 0.6; /* Réduit l'opacité pour montrer qu'ils sont désactivés */
+    cursor: not-allowed; /* Change le curseur pour indiquer qu'ils ne sont pas utilisables */
   }
